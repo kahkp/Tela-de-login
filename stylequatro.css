@@ -1,0 +1,58 @@
+body{
+    background: rgb(236, 212, 225);
+    background: linear-gradient(90deg, rgb(185, 94, 197) 10%, rgb(63, 55, 167) 100%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.quadroum{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+}
+.circulofoto{
+    background: rgb(226, 3, 89);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: -50px;
+    overflow: hidden;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 10px;
+   
+}
+.checkbox,.sociais{
+    display: flex;
+    gap: 5px;
+    
+}
+.sociais{
+    justify-content: center;
+    
+}
+.social{
+    display: flex;
+background: rgb(238, 112, 160) ;
+justify-content: center;
+color: black;
+padding: 10px;
+}
+.Login{
+    background: rgb(199, 22, 90) ;
+    padding: 10px;
+}
+input{
+    padding: 5px;
+}
+.social a{
+    color: black;
+    text-decoration: none;
+}
+.oulogin{
+    text-align: center;
+}
